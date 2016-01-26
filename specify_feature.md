@@ -23,3 +23,5 @@ Below is a mockup for the merge articles interface [hi-res]. The form for mergin
 ![Interface Mockup](https://lh5.googleusercontent.com/-PoSe3XwQ2Z0l3ZhSogtWmuUyMny3SxDbfew2j6lwcPXcQ8qQMsq9lSKeu0wP_TuNwk0yU00AwbjlrAuOxLVmyu8tDPaDmB1IsGixF2FmKkxVSnksWQ)
 
 **Tip**: Nesting <form> tags is invalid in HTML. Most browsers will only accept the outermost form tag. Be careful of which views you edit: a view partial may be rendered while inside of another form tag, so creating another form inside of it would be invalid.
+
+Next: [Driving Changes through Specs](driving_changes_through_specs.md)
