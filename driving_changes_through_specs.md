@@ -19,4 +19,4 @@ When you are finished, you should have the following:
 * Cucumber scenarios "A non-admin cannot merge two articles" and “When articles are merged, the merged article should contain the text of both previous articles” passing green
 * All the above committed to your local Git and pushed to Heroku
 
-**You are now ready to submit Legacy Code homework parts 1**
+**You are now ready to submit Legacy Code assignment "New Feature"**
