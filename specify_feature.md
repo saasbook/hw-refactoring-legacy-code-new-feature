@@ -20,7 +20,7 @@ Start by writing cucumber scenarios for the above behaviors. You will probably w
 
 Below is a mockup for the merge articles interface [hi-res]. The form for merging articles should be on the edit page for an article and it should let the user input the id of the article to be merged with. The merge interface should not be presented for new articles nor to non-administrators, but it is fine for the merge articles functionality to be present for drafts (we will not conduct any tests using draft articles). Make sure that the form field containing the ID of the article to merge has the name ‘merge_with’.
 
-![Interface Mockup](https://lh5.googleusercontent.com/-PoSe3XwQ2Z0l3ZhSogtWmuUyMny3SxDbfew2j6lwcPXcQ8qQMsq9lSKeu0wP_TuNwk0yU00AwbjlrAuOxLVmyu8tDPaDmB1IsGixF2FmKkxVSnksWQ)
+![Interface Mockup](ui_mockup.png)
 
 **Tip**: Nesting `<form>` tags is invalid in HTML. Most browsers will only accept the outermost form tag. Be careful of which views you edit: a view partial may be rendered while inside of another form tag, so creating another form inside of it would be invalid.
 
